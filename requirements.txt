@@ -9,3 +9,4 @@ faiss-cpu
 pypdf
 python-multipart
 psycopg2-binary 
+pydantic_settings
