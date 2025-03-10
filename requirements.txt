@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+sqlalchemy
+python-dotenv
+cloudinary
+langchain
+langchain-google-genai
+faiss-cpu
+pypdf
+python-multipart
