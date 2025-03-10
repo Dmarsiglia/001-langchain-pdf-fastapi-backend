@@ -19,12 +19,7 @@ app.include_router(pdfs.router)
 
 # Configura CORS
 origins = [
-    "http://localhost:3000",  # Origen de tu frontend
-    "http://localhost:8080",  # Origen del backend (si es diferente)
-    "http://localhost",
-    "http://127.0.0.1",
-    "http://127.0.0.1:3000",
-    "http://127.0.0.1:8080",
+    "https://langchain-pdf-app.onrender.com",  # Agrega tu frontend aquí
 ]
 
 app.add_middleware(
