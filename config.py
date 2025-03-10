@@ -8,9 +8,6 @@ class Settings(BaseSettings):
     DATABASE_PASSWORD: str
     DATABASE_PORT: int
     app_name: str = "Full Stack PDF CRUD App"
-    AWS_KEY: str
-    AWS_SECRET: str
-    AWS_S3_BUCKET: str = "pdf-basic-app"
 
     """  @staticmethod
         def get_s3_client():
